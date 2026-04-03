@@ -29,5 +29,11 @@
 
 ---
 
-## 4. 파일 구조 (File Structure)
+## 4. 파일 구조 (File Structure) 
+```
 📁 mysql-practice
+├──📁 chap.03
+│  ├── create-table.sql
+│  └── select-table.sql
+└──📁 chap.04
+```

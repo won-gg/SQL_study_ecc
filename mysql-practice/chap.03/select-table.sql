@@ -1,7 +1,7 @@
 /* === ch.03 Practice02 - 26.04.03 ===*/
 
--- Select all data from the books table
-SELECT * FROM books;
+-- Select all data from the books table Use ORDER BY
+SELECT * FROM books ORDER BY bookid;
 
 -- Select only the quantity is more than 3
 SELECT books.title FROM books WHERE quantity > 3;
@@ -14,3 +14,6 @@ SELECT AVG(price) AS 'avg_price' FROM books;
 
 -- Select the existence of books that its name is '1984'
 SELECT * FROM books WHERE title = '1984';
+
+-- Use GROUP BY
+SELECT price, COUNT(*) 'num' FROM books GROUP BY price;
